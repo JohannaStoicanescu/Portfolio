@@ -30,12 +30,13 @@
 
 .experience__details {
   display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 
 .experience__details-icon {
   margin-top: 6px;
-  font-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* MEDIA QUERIES */
@@ -58,7 +59,7 @@
 
 @media screen and (max-width: 600px) {
   .experience__container {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .experience__container > div {

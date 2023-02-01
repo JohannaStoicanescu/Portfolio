@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-bg: #1c1c29;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: hsl(244, 100%, 71%);
-  --color-secondary: rgba(77, 11, 255, 0.4);
+  --color-bg: #161025;
+  --color-bg-variant: #242461;
+  --color-primary: hsl(207, 100%, 64%);
+  --color-secondary: rgba(11, 48, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.863);
 

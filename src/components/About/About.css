@@ -89,6 +89,11 @@
   .about__content p {
     margin: 1rem 0 1.5rem;
   }
+
+  .about__card {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
