@@ -1,24 +1,27 @@
 import "./Portfolio.css";
-import illustration from "../../assets/illustration.png";
+
+import Anthill from "../../assets/loginPageAnthill.png";
+import Tripder from "../../assets/landingPageTripder.png";
+import Roketto from "../../assets/landingPageRoketto.png";
 
 const projects = [
   {
     id: 1,
-    image: illustration,
-    title: "title",
-    github: "hdfghd",
+    image: Anthill,
+    title: "Anthill (work in progress)",
+    text: "Platform to exchange ideas, comment and vote.",
   },
   {
     id: 2,
-    image: illustration,
-    title: "title",
-    github: "hdfghd",
+    image: Tripder,
+    title: "Tripder",
+    text: "A tinder to match with a city. Made in 24 hour for an Hackathon.",
   },
   {
     id: 3,
-    image: illustration,
-    title: "title",
-    github: "hdfghd",
+    image: Roketto,
+    title: "Rocketto",
+    text: "The first project I worked on as a web developer.",
   },
 ];
 function Portfolio() {
@@ -35,16 +38,7 @@ function Portfolio() {
                 <img src={e.image} alt="" />
               </div>
               <h3>{e.title}</h3>
-              <div className="portfolio__item-cta">
-                <a
-                  href={e.github}
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-              </div>
+              <p>{e.text}</p>
             </article>
           );
         })}

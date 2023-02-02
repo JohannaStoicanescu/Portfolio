@@ -15,31 +15,19 @@ function Experience() {
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Lorem</small>
-              </div>
+              <h4>HTML</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Lorem</small>
-              </div>
+              <h4>CSS</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Lorem</small>
-              </div>
+              <h4>JavaScript</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>ReactJS</h4>
-                <small className="text-light">Lorem</small>
-              </div>
+              <h4>ReactJS</h4>
             </article>
           </div>
         </div>
@@ -50,24 +38,15 @@ function Experience() {
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>NodeJS</h4>
-                <small className="text-light">Lorem</small>
-              </div>
+              <h4>NodeJS</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>ExpressJS</h4>
-                <small className="text-light">Lorem</small>
-              </div>
+              <h4>ExpressJS</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Lorem</small>
-              </div>
+              <h4>MySQL</h4>
             </article>
           </div>
         </div>

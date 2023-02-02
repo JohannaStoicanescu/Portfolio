@@ -2,7 +2,7 @@ import "./About.css";
 
 import { FiAward } from "react-icons/fi";
 
-import me from "../../assets/illustration.png";
+import setup from "../../assets/setup.png";
 
 function About() {
   return (
@@ -12,14 +12,14 @@ function About() {
 
       <div className="container about__container">
         <div className="about__me">
-          <img src={me} alt="about me" className="about__me-image" />
+          <img src={setup} alt="about me" className="about__me-image" />
         </div>
         <div className="about__content">
           <div className="about_card">
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years</small>
+              <p>1+ Years</p>
             </article>
           </div>
           <p>

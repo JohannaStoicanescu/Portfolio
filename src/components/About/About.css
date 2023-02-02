@@ -19,13 +19,12 @@
 }
 
 .about__me-image {
-  height: 90%;
-  width: 90%;
+  height: 100%;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
-  opacity: 0.8;
+
 }
 
 .about__me-image:hover {
@@ -55,12 +54,8 @@
 
 .about__icon {
   color: var(--color-primary);
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
-}
-
-.about__card h5 {
-  font-size: 0.95rem;
 }
 
 .about__card small {
@@ -68,7 +63,7 @@
   color: var(--color-light);
 }
 
-.about__content p {
+.about__content > p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
 }

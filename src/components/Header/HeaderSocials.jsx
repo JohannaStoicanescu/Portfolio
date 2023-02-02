@@ -9,14 +9,14 @@ const HeaderSocials = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <BsLinkedin />
+        <BsLinkedin className="header__socials-icon"/>
       </a>
       <a
         href="https://github.com/JohannaStoicanescu/"
         target="_blank"
         rel="noreferrer"
       >
-        <FaGithub />
+        <FaGithub className="header__socials-icon"/>
       </a>
     </div>
   );
