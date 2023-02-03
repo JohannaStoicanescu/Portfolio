@@ -9,11 +9,13 @@
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
+  transition: var(--transition);
 }
 
 .experience__container > div:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-secondary);
+  transition: var(--transition);
 }
 
 .experience__container > div h3 {
@@ -31,7 +33,9 @@
 .experience__details {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.5rem;
+  padding: 0 0 1.5rem;
+  margin: 0.5rem;
 }
 
 .experience__details-icon {
@@ -59,7 +63,10 @@
 
 @media screen and (max-width: 600px) {
   .experience__container {
-    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 
   .experience__container > div {

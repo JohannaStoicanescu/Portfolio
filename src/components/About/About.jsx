@@ -27,9 +27,9 @@ function About() {
             Communication that I obtained in parallel to my job as a
             waitress/bartender which taught me discipline, creativity and to be
             social. While doing so, I started exploring programming/coding and
-            it became rapidly clear that is would became the logical next step
+            it became rapidly clear that it would became the logical next step
             in my career.
-            <br /> I am seeking joining a dynamic, passionate and cohesive team.
+            <br /> I am seeking to join a dynamic, passionate and cohesive team.
             <br /> Don't hesitate to contact me for further information!
           </p>
           <a href="#contact" className="btn btn-primary">

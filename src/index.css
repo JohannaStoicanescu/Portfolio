@@ -11,9 +11,9 @@
 }
 
 :root {
-  --color-bg: #161025;
+  --color-bg: #0f0422;
   --color-bg-variant: #242461;
-  --color-primary: hsl(207, 100%, 64%);
+  --color-primary: hsl(214, 100%, 72%);
   --color-secondary: rgba(11, 48, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.863);
@@ -35,7 +35,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--color-bg);
+  background: linear-gradient(var(--color-bg), rgb(27, 13, 29), rgb(22, 9, 31));
   color: var(--color-light);
   line-height: 1.7;
 }
@@ -55,6 +55,10 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
 }
 
 h5 {
