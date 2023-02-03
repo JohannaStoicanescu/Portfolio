@@ -3,7 +3,6 @@ import { useRef } from "react";
 import emailjs from "emailjs-com";
 
 import { FiMail } from "react-icons/fi";
-import { BsWhatsapp } from "react-icons/bs";
 
 import "./Contact.css";
 
@@ -40,18 +39,6 @@ function Contact() {
               rel="noreferrer"
             >
               Send an email
-            </a>
-          </article>
-          <article className="contact__option">
-            <BsWhatsapp />
-            <h4>Whatsapp</h4>
-            <h5>0612345678</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone+33770331990"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message
             </a>
           </article>
         </div>
