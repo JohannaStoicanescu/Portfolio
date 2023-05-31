@@ -22,12 +22,8 @@ function header() {
         <HeaderButtons />
         <HeaderSocials />
 
-        <div className="me">
-          <img src={me} alt="me" />
-        </div>
-        <div className="container__test">
-          <p className="test">Hey</p>
-        </div>
+        <img src={me} alt="me" className="me" />
+
         <div className="container__scroll__down">
           <a href="#contact" className="scroll__down">
             Scroll Down

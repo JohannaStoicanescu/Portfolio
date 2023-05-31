@@ -19,15 +19,23 @@ function Experience() {
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>CSS</h4>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
               <h4>JavaScript</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <h4>ReactJS</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <h4>VueJS</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <h4>CSS</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <h4>Bootstrap</h4>
             </article>
           </div>
         </div>
@@ -43,6 +51,10 @@ function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <h4>ExpressJS</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <h4>Django</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
