@@ -1,4 +1,4 @@
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/CV.png";
 function HeaderButtons() {
   return (
     <div className="headerButtons">
